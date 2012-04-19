@@ -1,0 +1,6 @@
+# Finder indexing files
+.DS_Store
+
+# Xcode
+xcuserdata
+*.xcworkspace

@@ -20,6 +20,7 @@
 		9A2A17CF1510E2D50037F1D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2A17B01510E2D50037F1D4 /* Foundation.framework */; };
 		9A2A17D71510E2D50037F1D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A2A17D51510E2D50037F1D4 /* InfoPlist.strings */; };
 		9A2A17DA1510E2D50037F1D4 /* ProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A17D91510E2D50037F1D4 /* ProgressViewTests.m */; };
+		9A2A17E51510E2F50037F1D4 /* N4ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A17E41510E2F50037F1D4 /* N4ProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +38,23 @@
 		9A2A17AE1510E2D50037F1D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9A2A17B01510E2D50037F1D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9A2A17B21510E2D50037F1D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9A2A17B61510E2D50037F1D4 /* ProgressView-Info.plist */ = {isa = PBXFileReference; path = "ProgressView-Info.plist"; sourceTree = "<group>"; };
+		9A2A17B61510E2D50037F1D4 /* ProgressView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProgressView-Info.plist"; sourceTree = "<group>"; };
 		9A2A17B81510E2D50037F1D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A2A17BA1510E2D50037F1D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9A2A17BC1510E2D50037F1D4 /* ProgressView-Prefix.pch */ = {isa = PBXFileReference; path = "ProgressView-Prefix.pch"; sourceTree = "<group>"; };
-		9A2A17BD1510E2D50037F1D4 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A2A17BC1510E2D50037F1D4 /* ProgressView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProgressView-Prefix.pch"; sourceTree = "<group>"; };
+		9A2A17BD1510E2D50037F1D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A2A17BE1510E2D50037F1D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9A2A17C01510E2D50037F1D4 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		9A2A17C01510E2D50037F1D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9A2A17C11510E2D50037F1D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9A2A17C41510E2D50037F1D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		9A2A17CB1510E2D50037F1D4 /* ProgressViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2A17CC1510E2D50037F1D4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		9A2A17D41510E2D50037F1D4 /* ProgressViewTests-Info.plist */ = {isa = PBXFileReference; path = "ProgressViewTests-Info.plist"; sourceTree = "<group>"; };
+		9A2A17D41510E2D50037F1D4 /* ProgressViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProgressViewTests-Info.plist"; sourceTree = "<group>"; };
 		9A2A17D61510E2D50037F1D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9A2A17D81510E2D50037F1D4 /* ProgressViewTests.h */ = {isa = PBXFileReference; path = ProgressViewTests.h; sourceTree = "<group>"; };
+		9A2A17D81510E2D50037F1D4 /* ProgressViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressViewTests.h; sourceTree = "<group>"; };
 		9A2A17D91510E2D50037F1D4 /* ProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressViewTests.m; sourceTree = "<group>"; };
+		9A2A17E31510E2F50037F1D4 /* N4ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N4ProgressView.h; sourceTree = "<group>"; };
+		9A2A17E41510E2F50037F1D4 /* N4ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = N4ProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 		9A2A17B41510E2D50037F1D4 /* ProgressView */ = {
 			isa = PBXGroup;
 			children = (
+				9A2A17E31510E2F50037F1D4 /* N4ProgressView.h */,
+				9A2A17E41510E2F50037F1D4 /* N4ProgressView.m */,
 				9A2A17BD1510E2D50037F1D4 /* AppDelegate.h */,
 				9A2A17BE1510E2D50037F1D4 /* AppDelegate.m */,
 				9A2A17C01510E2D50037F1D4 /* ViewController.h */,
@@ -261,6 +266,7 @@
 				9A2A17BB1510E2D50037F1D4 /* main.m in Sources */,
 				9A2A17BF1510E2D50037F1D4 /* AppDelegate.m in Sources */,
 				9A2A17C21510E2D50037F1D4 /* ViewController.m in Sources */,
+				9A2A17E51510E2F50037F1D4 /* N4ProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +434,7 @@
 				9A2A17DF1510E2D50037F1D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A2A17E01510E2D50037F1D4 /* Build configuration list for PBXNativeTarget "ProgressViewTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +443,7 @@
 				9A2A17E21510E2D50037F1D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
